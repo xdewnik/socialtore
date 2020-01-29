@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/facebookLoginFragment">
+
+    <fragment
+        android:id="@+id/facebookLoginFragment"
+        android:name="com.wnemy.socialstore.ui.fragment.FacebookLoginFragment"
+        android:label="FacebookLoginFragment" />
+</navigation>
